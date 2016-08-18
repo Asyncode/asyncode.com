@@ -224,10 +224,11 @@ html.fp-enabled,
   background: #39a9db; }
 
 .bkg-blue3 {
+  background: #1c77c3;
   background-image: linear-gradient(135deg, #1c77c3, #3191e1, #39a9db); }
 
 .bkg-orange {
-  background: #f39237; }
+  background-image: linear-gradient(135deg, #e9780e, #f39237, #f49f4f); }
 
 .bkg-red {
   background: #d63230; }

@@ -16,11 +16,12 @@ $brand-grey: #fbfbfb;
 	background: $brand-blue2;
 }
 .bkg-blue3{
-//	background: $brand-blue3;
+	background: $brand-blue3;
 	background-image: linear-gradient(135deg, $brand-blue3, lighten($brand-blue3,10), $brand-blue2);
 }
 .bkg-orange{
-	background: $brand-orange;
+//	background: $brand-orange;
+	background-image: linear-gradient(135deg, darken($brand-orange,10), $brand-orange, lighten($brand-orange,5)); 
 }
 .bkg-red{
 	background: $brand-red;
