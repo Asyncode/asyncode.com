@@ -217,21 +217,27 @@ html.fp-enabled,
 
 /* Coolors Exported Palette - coolors.co/1c77c3-39a9db-40bcd8-f39237-d63230 */
 /* RGB */
-.bkg-blue1 {
-  background: #40bcd8; }
+.btn-orange {
+  border-color: #f39237;
+  color: #f39237;
+  background: inherit;
+  border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
 
-.bkg-blue2 {
-  background: #39a9db; }
+.btn-orange:hover {
+  border-color: #e9780e;
+  color: #fff;
+  background: #f39237;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
 
-.bkg-blue3 {
-  background: #1c77c3;
-  background-image: linear-gradient(135deg, #1c77c3, #3191e1, #39a9db); }
+.bkg-black {
+  background-image: linear-gradient(135deg, #333333, #555, #5e5e5e); }
 
-.bkg-orange {
-  background-image: linear-gradient(135deg, #e9780e, #f39237, #f49f4f); }
+.bkg-marine {
+  background-image: linear-gradient(135deg, #4e757f, #62929E, #729da8); }
 
-.bkg-red {
-  background: #d63230; }
+.bkg-sky {
+  background-image: linear-gradient(135deg, #455b78, #577399, #6380a6); }
 
 .bkg-grey {
   background: #fbfbfb; }
