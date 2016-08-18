@@ -1,0 +1,30 @@
+/* Coolors Exported Palette - coolors.co/1c77c3-39a9db-40bcd8-f39237-d63230 */
+
+/* RGB */
+$brand-blue1: rgba(64, 188, 216, 1);
+$brand-blue2: rgba(57, 169, 219, 1);
+$brand-blue3: rgba(28, 119, 195, 1);
+$brand-orange: rgba(243, 146, 55, 1);
+$brand-red: rgba(214, 50, 48, 1);
+$brand-border: #eeeeee;
+$brand-grey: #fbfbfb;
+
+.bkg-blue1{
+	background: $brand-blue1;
+}
+.bkg-blue2{
+	background: $brand-blue2;
+}
+.bkg-blue3{
+//	background: $brand-blue3;
+	background-image: linear-gradient(135deg, $brand-blue3, lighten($brand-blue3,10), $brand-blue2);
+}
+.bkg-orange{
+	background: $brand-orange;
+}
+.bkg-red{
+	background: $brand-red;
+}
+.bkg-grey{
+	background: $brand-grey;
+}
