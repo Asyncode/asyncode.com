@@ -1,7 +1,7 @@
 /* Coolors Exported Palette - coolors.co/1c77c3-39a9db-40bcd8-f39237-d63230 */
 
 /* RGB */
-//$brand-blue1: rgba(64, 188, 216, 1);
+$brand-blue1: #F3F7F0;//darken(#C9A7A7,20);
 //$brand-blue2: rgba(57, 169, 219, 1);
 //$brand-blue3: rgba(28, 119, 195, 1);
 $brand-orange: rgba(243, 146, 55, 1);
@@ -12,24 +12,10 @@ $brand-border: #eeeeee;
 $brand-grey: #fbfbfb;
 $brand-sky: #577399;
 
-.btn-orange{
-	border-color: $brand-orange;
-	color: $brand-orange;
-	background: inherit;
-	border-radius: 0;
-  transition: color 1s ease 0s, background-color 1s ease 0s;
+.bkg-blue1{
+	background: $brand-blue1;
+		background-image: linear-gradient(135deg, $brand-blue1, lighten($brand-blue1,10), lighten($brand-blue1,20));
 }
-
-.btn-orange:hover{
-	border-color: darken($brand-orange,10);
-	color: #fff;
-	background: lighten($brand-orange,0);
-  transition: color 1s ease 0s, background-color 1s ease 0s;
-}
-
-//.bkg-blue1{
-//	background: $brand-blue1;
-//}
 //.bkg-blue2{
 //	background: $brand-blue2;
 //}
@@ -54,6 +40,18 @@ $brand-sky: #577399;
 //.bkg-red{
 //	background: $brand-red;
 //}
-.bkg-grey{
-	background: $brand-grey;
+	
+.btn-orange{
+	border-color: $brand-orange;
+	color: $brand-orange;
+	background: inherit;
+	border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+
+.btn-orange:hover{
+	border-color: darken($brand-orange,10);
+	color: #fff;
+	background: lighten($brand-orange,0);
+  transition: color 1s ease 0s, background-color 1s ease 0s;
 }
