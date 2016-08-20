@@ -1,27 +1,29 @@
 /* Coolors Exported Palette - coolors.co/1c77c3-39a9db-40bcd8-f39237-d63230 */
 
 /* RGB */
-$brand-blue1: #F3F7F0;//darken(#C9A7A7,20);
+$brand-blue1: darken(#C9A7A7,20);
 //$brand-blue2: rgba(57, 169, 219, 1);
 //$brand-blue3: rgba(28, 119, 195, 1);
 $brand-orange: rgba(243, 146, 55, 1);
-//$brand-red: rgba(214, 50, 48, 1);
-
+$brand-red: #BA1F33;/*rgba(214, 50, 48, 1);*/
 $brand-marine: #62929E;
 $brand-border: #eeeeee;
-$brand-grey: #fbfbfb;
+$brand-white: #F3F7F0;
+$brand-black: #333;
 $brand-sky: #577399;
 
-.bkg-blue1{
-	background: $brand-blue1;
-		background-image: linear-gradient(135deg, $brand-blue1, lighten($brand-blue1,10), lighten($brand-blue1,20));
+.bkg-white{
+	background: $brand-white;
+	background-image: linear-gradient(135deg, $brand-white, lighten($brand-white,10), lighten($brand-white,20));
+	color:$brand-black;
 }
 //.bkg-blue2{
 //	background: $brand-blue2;
 //}
 .bkg-black{
 //	background: $brand-orange;
-	background-image: linear-gradient(135deg, #333333, #555, lighten(#444444,10)); 
+	background-image: linear-gradient(135deg, #333333, #555, lighten(#444444,10));
+	color: white;
 }
 //.bkg-blue3{
 //	background: $brand-blue3;
@@ -33,10 +35,11 @@ $brand-sky: #577399;
 .bkg-sky{
 	background-image: linear-gradient(135deg, darken($brand-sky,10), $brand-sky, lighten($brand-sky,5)); 	
 }
-//.bkg-orange{
-////	background: $brand-orange;
-//	background-image: linear-gradient(135deg, darken($brand-orange,10), $brand-orange, lighten($brand-orange,5)); 
-//}
+.bkg-orange{
+//	background: $brand-orange;
+	background-image: linear-gradient(135deg, darken($brand-orange,10), $brand-orange, lighten($brand-orange,5));
+	color: $brand-white;
+}
 //.bkg-red{
 //	background: $brand-red;
 //}
@@ -48,8 +51,35 @@ $brand-sky: #577399;
 	border-radius: 0;
   transition: color 1s ease 0s, background-color 1s ease 0s;
 }
-
 .btn-orange:hover{
+	border-color: darken($brand-orange,10);
+	color: #fff;
+	background: lighten($brand-orange,0);
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+
+.btn-white{
+	border-color: $brand-white;
+	color: $brand-white;
+	background: inherit;
+	border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+.btn-white:hover{
+	border-color: darken($brand-white,10);
+	color: #fff;
+	background: lighten($brand-white,0);
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+.btn-red{
+	border-color: $brand-red;
+	color: #ffffff;
+	border-color: $brand-red;
+	background: $brand-red;
+	border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s;
+}
+.btn-red:hover{
 	border-color: darken($brand-orange,10);
 	color: #fff;
 	background: lighten($brand-orange,0);

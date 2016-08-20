@@ -216,18 +216,25 @@ html.fp-enabled,
 
 /* Coolors Exported Palette - coolors.co/1c77c3-39a9db-40bcd8-f39237-d63230 */
 /* RGB */
-.bkg-blue1 {
+/*rgba(214, 50, 48, 1);*/
+.bkg-white {
   background: #F3F7F0;
-  background-image: linear-gradient(135deg, #F3F7F0, white, white); }
+  background-image: linear-gradient(135deg, #F3F7F0, white, white);
+  color: #333; }
 
 .bkg-black {
-  background-image: linear-gradient(135deg, #333333, #555, #5e5e5e); }
+  background-image: linear-gradient(135deg, #333333, #555, #5e5e5e);
+  color: white; }
 
 .bkg-marine {
   background-image: linear-gradient(135deg, #4e757f, #62929E, #729da8); }
 
 .bkg-sky {
   background-image: linear-gradient(135deg, #455b78, #577399, #6380a6); }
+
+.bkg-orange {
+  background-image: linear-gradient(135deg, #e9780e, #f39237, #f49f4f);
+  color: #F3F7F0; }
 
 .btn-orange {
   border-color: #f39237;
@@ -237,6 +244,33 @@ html.fp-enabled,
   transition: color 1s ease 0s, background-color 1s ease 0s; }
 
 .btn-orange:hover {
+  border-color: #e9780e;
+  color: #fff;
+  background: #f39237;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
+
+.btn-white {
+  border-color: #F3F7F0;
+  color: #F3F7F0;
+  background: inherit;
+  border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
+
+.btn-white:hover {
+  border-color: #d8e5cf;
+  color: #fff;
+  background: #f3f7f0;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
+
+.btn-red {
+  border-color: #BA1F33;
+  color: #ffffff;
+  border-color: #BA1F33;
+  background: #BA1F33;
+  border-radius: 0;
+  transition: color 1s ease 0s, background-color 1s ease 0s; }
+
+.btn-red:hover {
   border-color: #e9780e;
   color: #fff;
   background: #f39237;
@@ -258,13 +292,13 @@ h1, h2, h3 {
 .fp-scrollable {
   overflow: hidden; }
 
-.navbar {
-  background: rgba(26, 20, 35, 0.3) none repeat scroll 0 0;
-  border-color: rgba(26, 20, 35, 0.6);
-  height: 85px; }
-
-.navbar .main-menu {
-  margin: 10px; }
+#tools .tool {
+  border: 1px solid #bed4ad;
+  background: #F3F7F0;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 32px; }
 
 .gluu-logo {
   height: 60px;

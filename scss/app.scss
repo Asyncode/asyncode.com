@@ -17,16 +17,19 @@ h1, h2, h3 {
 	letter-spacing: 1px;
 	font-weight: 300
 }
+
 .fp-scrollable{
 	overflow: hidden;
 }
-.navbar {
-    background: rgba(26, 20, 35, 0.3) none repeat scroll 0 0;
-    border-color: rgba(26, 20, 35, 0.6);
-    height: 85px;
-}
-.navbar .main-menu {
-    margin: 10px;
+#tools {
+	.tool{
+		border:1px solid darken($brand-white,20);
+		background: $brand-white;
+		display:block;
+		color: $brand-black;
+		text-decoration: none;
+		padding: 32px;
+	}
 }
 .gluu-logo {
     height: 60px;
