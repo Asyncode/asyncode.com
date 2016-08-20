@@ -226,6 +226,11 @@ html.fp-enabled,
   background-image: linear-gradient(135deg, #333333, #555, #5e5e5e);
   color: white; }
 
+.bkg-blue3 {
+  background: #1c77c3;
+  background-image: linear-gradient(135deg, #1c77c3, #3191e1, #39a9db);
+  color: white; }
+
 .bkg-marine {
   background-image: linear-gradient(135deg, #4e757f, #62929E, #729da8); }
 
@@ -233,7 +238,13 @@ html.fp-enabled,
   background-image: linear-gradient(135deg, #455b78, #577399, #6380a6); }
 
 .bkg-orange {
+  background: #f39237;
   background-image: linear-gradient(135deg, #e9780e, #f39237, #f49f4f);
+  color: #F3F7F0; }
+
+.bkg-red {
+  background: #BA1F33;
+  background-image: linear-gradient(135deg, #8e1827, #BA1F33, #d02339);
   color: #F3F7F0; }
 
 .btn-orange {
@@ -292,8 +303,8 @@ h1, h2, h3 {
 .fp-scrollable {
   overflow: hidden; }
 
-#tools .tool {
-  border: 1px solid #bed4ad;
+.tools .tool {
+  border: 1px solid #d8e5cf;
   background: #F3F7F0;
   display: block;
   color: #333;

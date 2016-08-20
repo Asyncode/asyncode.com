@@ -20,10 +20,10 @@ h1, h2, h3 {
 
 .fp-scrollable{
 	overflow: hidden;
-}
-#tools {
+} 
+.tools {
 	.tool{
-		border:1px solid darken($brand-white,20);
+		border:1px solid darken($brand-white,10);
 		background: $brand-white;
 		display:block;
 		color: $brand-black;

@@ -2,8 +2,8 @@
 
 /* RGB */
 $brand-blue1: darken(#C9A7A7,20);
-//$brand-blue2: rgba(57, 169, 219, 1);
-//$brand-blue3: rgba(28, 119, 195, 1);
+$brand-blue2: rgba(57, 169, 219, 1);
+$brand-blue3: rgba(28, 119, 195, 1);
 $brand-orange: rgba(243, 146, 55, 1);
 $brand-red: #BA1F33;/*rgba(214, 50, 48, 1);*/
 $brand-marine: #62929E;
@@ -25,10 +25,11 @@ $brand-sky: #577399;
 	background-image: linear-gradient(135deg, #333333, #555, lighten(#444444,10));
 	color: white;
 }
-//.bkg-blue3{
-//	background: $brand-blue3;
-//	background-image: linear-gradient(135deg, $brand-blue3, lighten($brand-blue3,10), $brand-blue2);
-//}
+.bkg-blue3{
+	background: $brand-blue3;
+	background-image: linear-gradient(135deg, $brand-blue3, lighten($brand-blue3,10), $brand-blue2);
+	color: white;
+}
 .bkg-marine{
 	background-image: linear-gradient(135deg, darken($brand-marine,10), $brand-marine, lighten($brand-marine,5)); 	
 }
@@ -36,13 +37,15 @@ $brand-sky: #577399;
 	background-image: linear-gradient(135deg, darken($brand-sky,10), $brand-sky, lighten($brand-sky,5)); 	
 }
 .bkg-orange{
-//	background: $brand-orange;
+	background: $brand-orange;
 	background-image: linear-gradient(135deg, darken($brand-orange,10), $brand-orange, lighten($brand-orange,5));
 	color: $brand-white;
 }
-//.bkg-red{
-//	background: $brand-red;
-//}
+.bkg-red{
+	background: $brand-red;
+	background-image: linear-gradient(135deg, darken($brand-red,10), $brand-red, lighten($brand-red,5));
+	color: $brand-white;
+}
 	
 .btn-orange{
 	border-color: $brand-orange;
