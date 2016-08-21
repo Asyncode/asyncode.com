@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="59.754742"
+   height="59.163048"
+   id="svg3025"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="ac-icon.svg">
+  <defs
+     id="defs3027">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,153.07 266.456,0 L 266.456,0 0,0 0,153.07 z"
+         id="path20" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="128.06784"
+     inkscape:cy="6.7074579"
+     inkscape:current-layer="g16"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1736"
+     inkscape:window-height="1060"
+     inkscape:window-x="182"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-0.20099986,0.16304909"
+       orientation="0,400"
+       id="guide3770" />
+    <sodipodi:guide
+       position="399.799,0.16304909"
+       orientation="-400,0"
+       id="guide3772" />
+    <sodipodi:guide
+       position="399.799,400.16304"
+       orientation="0,-400"
+       id="guide3774" />
+    <sodipodi:guide
+       position="-0.20099986,400.16304"
+       orientation="400,0"
+       id="guide3776" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3030">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-0.20099986,11)">
+    <rect
+       style="fill:#232323;fill-opacity:1;fill-rule:evenodd;stroke:#cadcff;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none"
+       id="rect3833"
+       width="0.2857143"
+       height="0.5714286"
+       x="8.8571424"
+       y="-11" />
+    <g
+       transform="matrix(2.1250664,0,0,-2.1250664,-105.24777,181.7048)"
+       id="g14"
+       style="fill:#333333;fill-opacity:1"
+       inkscape:export-filename="/home/adrian/projects/asyncode/asyncode.com/img/logo.png"
+       inkscape:export-xdpi="24"
+       inkscape:export-ydpi="24">
+      <g
+         id="g16"
+         clip-path="url(#clipPath18)"
+         style="fill:#333333;fill-opacity:1">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffcc66;stroke-width:0.85781097;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect3806"
+           width="46.199543"
+           height="46.199543"
+           x="45.378506"
+           y="-99.150978"
+           transform="scale(1,-1)" />
+        <g
+           id="g38"
+           transform="translate(68.438135,76.783199)"
+           style="fill:#666666;fill-opacity:1"
+           inkscape:export-filename="/home/adrian/projects/asyncode/asyncode.com/img/ac-icon.png"
+           inkscape:export-xdpi="301.7605"
+           inkscape:export-ydpi="301.7605">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 0,0 -0.04,0 -0.012,0 -0.012,0 -0.04,0 c -0.769,-0.004 -1.521,-0.072 -2.25,-0.197 l 2.302,6.674 2.303,-6.674 C 1.521,-0.072 0.771,-0.004 0,0 m 4.541,13.564 c 0,0.004 -2.287,0.002 -4.593,0 -2.305,0.002 -4.593,0.004 -4.593,0 -0.114,-0.326 -9.466,-27.49 -9.466,-27.49 0,0 3.133,-0.045 3.833,0.016 2.124,0.176 3.348,0.947 4.168,2.558 0.316,0.623 1.2,4.582 6.058,4.571 4.859,0.011 5.743,-3.948 6.059,-4.571 0.819,-1.611 2.045,-2.382 4.168,-2.558 0.699,-0.061 3.833,-0.016 3.833,-0.016 0,0 -9.353,27.164 -9.467,27.49"
+             style="fill:#f39237;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path40"
+             inkscape:export-filename="/home/adrian/projects/asyncode/asyncode.com/img/ac-icon.png"
+             inkscape:export-xdpi="301.7605"
+             inkscape:export-ydpi="301.7605" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
