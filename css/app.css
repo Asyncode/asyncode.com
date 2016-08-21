@@ -311,10 +311,9 @@ h1, h2, h3 {
   text-decoration: none;
   padding: 32px; }
 
-.gluu-logo {
-  height: 60px;
-  opacity: 0.9;
-  width: 60px; }
+.logo {
+  height: 35px;
+  opacity: .64; }
 
 .link-icon {
   color: #333;

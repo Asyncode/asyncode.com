@@ -28,8 +28,7 @@
     <filter
        id="filter4779"
        inkscape:label="Drop Shadow"
-       color-interpolation-filters="sRGB"
-       style="color-interpolation-filters:sRGB;">
+       color-interpolation-filters="sRGB">
       <feFlood
          id="feFlood4781"
          flood-opacity="0.5"
@@ -79,89 +78,6 @@
          in2="offset"
          in="fbSourceGraphic"
          operator="over"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix3029" />
-      <feFlood
-         id="feFlood3031"
-         flood-opacity="1"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         in="fbSourceGraphic" />
-      <feComposite
-         id="feComposite3033"
-         in2="fbSourceGraphic"
-         in="flood"
-         operator="in"
-         result="composite1" />
-      <feOffset
-         id="feOffset3035"
-         dx="2"
-         dy="2"
-         result="offset" />
-      <feComposite
-         id="feComposite3037"
-         in2="offset"
-         in="fbSourceGraphic"
-         operator="over"
-         result="composite2" />
-    </filter>
-    <filter
-       id="filter3042"
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Drop Shadow">
-      <feFlood
-         id="feFlood3044"
-         flood-opacity="0.99"
-         flood-color="rgb(0,0,0)"
-         result="flood" />
-      <feComposite
-         id="feComposite3046"
-         in2="SourceGraphic"
-         in="flood"
-         operator="in"
-         result="composite1" />
-      <feOffset
-         id="feOffset3048"
-         dx="2"
-         dy="2"
-         result="offset" />
-      <feComposite
-         id="feComposite3050"
-         in2="offset"
-         in="SourceGraphic"
-         operator="over"
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix3052" />
-      <feFlood
-         id="feFlood3054"
-         flood-opacity="0.99"
-         flood-color="rgb(0,0,0)"
-         result="flood"
-         in="fbSourceGraphic" />
-      <feComposite
-         id="feComposite3056"
-         in2="fbSourceGraphic"
-         in="flood"
-         operator="in"
-         result="composite1" />
-      <feOffset
-         id="feOffset3058"
-         dx="-1"
-         dy="-1"
-         result="offset" />
-      <feComposite
-         id="feComposite3060"
-         in2="offset"
-         in="fbSourceGraphic"
-         operator="over"
          result="composite2" />
     </filter>
   </defs>
@@ -173,7 +89,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="380.82501"
+     inkscape:cx="-136.72259"
      inkscape:cy="-39.403457"
      inkscape:current-layer="g46"
      showgrid="true"
@@ -269,7 +185,7 @@
            transform="translate(151.6621,76.5391)"
            style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1">
           <path
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3042)"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4779)"
              d="m 246.71875,0 c -16.51389,0 -29.875,13.430857 -29.875,30 -0.008,10.4022 -8.20162,14.9375 -16.5,14.9375 -8.16238,0 -14.8125,-6.677367 -14.8125,-14.9375 l 0.0312,0 c 0,-8.260133 6.60612,-14.9375 14.78125,-14.9375 4.60714,0 7.93588,1.1434 11.625,4.34375 l 7,-12.625 C 213.88559,2.6139948 207.40535,0.125 200.34375,0.125 c -12.72054,0 -23.57399,8.1085181 -27.75,19.5 l 0,-18.9375 -14.4375,0 0,25.21875 0,3.28125 c -0.22313,-0.374012 -0.45162,-0.746738 -0.6875,-1.125 l -17.3125,-27.375 -13.625,0 0,0.0625 -10.90625,0 -10.375,21.9375 c -0.0191,-0.0255 -0.0434,-0.09887 -0.0625,-0.15625 l 0.0625,0 -10.5,-21.84375 -8.21875,0 L 73,0.6875 C 59.807588,0.60462241 50.220002,7.7264399 50.15625,17.625 50.07762,29.508371 63.520113,33.799206 67.90625,35.21875 75.397109,37.677452 76.014875,39.613435 76,41.6875 75.97237,46.071512 70.441948,46.517001 68.09375,46.5 L 55.4375,46.53125 C 50.167408,31.225667 39.815287,1.2004051 39.625,0.65625 c 0,-0.0085 -4.849597,-0.00425 -9.75,0 -4.898278,-0.00425 -9.75,-0.0085 -9.75,0 C 19.882742,1.3490216 0,59.0625 0,59.0625 c 0,0 6.6687035,0.09838 8.15625,-0.03125 4.513641,-0.374014 7.101196,-2.014018 8.84375,-5.4375 0.671521,-1.323916 2.551427,-9.742126 12.875,-9.71875 10.325698,-0.02338 12.203479,8.394834 12.875,9.71875 1.740429,3.423482 4.332234,5.063486 8.84375,5.4375 0.502174,0.04382 1.64729,0.05776 2.875,0.0625 0.588063,0.0023 1.181886,0.0025 1.78125,0 l 11.84375,0 0,-0.03125 C 84.403635,58.949871 91.784248,50.125776 91.84375,41.28125 91.911752,30.485913 82.690498,25.98071 74.6875,23.25 66.567619,20.476788 65.98725,18.951437 66,16.96875 c 0.01063,-1.848808 2.101722,-3.971501 7,-3.9375 l 12.75,0 c 5.542173,11.579487 12.3125,26.845956 12.3125,32.25 l 0,13.8125 14.375,0 0,-13.8125 c 0,-4.449889 4.51298,-15.496308 9.15625,-25.65625 l 4.96875,-10.4375 0.125,49.875 14.4375,0 0,-25.4375 c 0,-1.377043 0.0213,-2.70221 0,-3.96875 0.44414,0.701272 0.88049,1.420977 1.34375,2.15625 l 17.125,27.25 13,0 0,-18.6875 c 4.1254,11.27558 14.71125,19.220291 26.5,19.59375 11.07084,0.350108 19.76318,-3.56193 25.375,-9.96875 5.47181,6.12098 13.40535,9.96875 22.25,9.96875 12.27256,0 22.82936,-7.419059 27.4375,-18.03125 l 0,17.09375 6.90625,0 7.0625,0 6.90625,0 0,-0.03125 c 11.32994,-0.234707 21.06031,-6.948249 25.65625,-16.59375 l 0,16.625 34.65625,0 0,-12.96875 -20.53125,0 0,-10.90625 19.71875,0 0,-12.875 -19.71875,0 0,-8.65625 20.53125,0 0,-12.96875 -34.65625,0 0,16.625 C 316.09156,7.6281888 306.36119,0.91306252 295.03125,0.6875 l 0,-0.03125 -6.90625,0 -7.0625,0 -6.90625,0 0,17.375 C 269.54684,7.4179263 258.98917,0 246.71875,0 z m 0,14.96875 c 8.27288,0 14.96875,6.751991 14.96875,15.03125 0,8.289884 -6.69587,14.96875 -14.96875,14.96875 -8.25163,0 -14.9375,-6.678866 -14.9375,-14.96875 0,-8.279259 6.68587,-15.03125 14.9375,-15.03125 z M 288.125,15.25 l 6.53125,0 c 7.94137,0.112629 14.3125,6.5865 14.3125,14.59375 0,8.005125 -6.41025,14.515123 -14.375,14.59375 l -6.46875,0 0,-29.1875 z m -258.25,0.46875 4.90625,14.1875 C 33.229952,29.640617 31.638426,29.47725 30,29.46875 l -0.09375,0 -0.03125,0 -0.03125,0 -0.0625,0 C 28.147074,29.47725 26.549173,29.640617 25,29.90625 l 4.875,-14.1875 z"
              transform="matrix(0.47057353,0,0,-0.47057353,-101.57013,12.230904)"
              id="path48"

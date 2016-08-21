@@ -31,10 +31,13 @@ h1, h2, h3 {
 		padding: 32px;
 	}
 }
-.gluu-logo {
-    height: 60px;
-    opacity: 0.9;
-    width: 60px;
+.logo {
+	height: 35px;
+//	filter: drop-shadow(2px 2px 0 #aaa) 
+//          drop-shadow(-2px -2px 0 #aaa);
+//	-webkit-filter: drop-shadow(1px 1px 0 #aaa)
+//									drop-shadow(-1px -1px 0 #aaa);
+	opacity:.64;
 }
 
 .link-icon {
