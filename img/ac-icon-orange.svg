@@ -14,7 +14,7 @@
    id="svg3025"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="ac-icon-orange.svg">
+   sodipodi:docname="ac-icon.svg">
   <defs
      id="defs3027">
     <clipPath
@@ -36,7 +36,7 @@
      inkscape:zoom="1"
      inkscape:cx="138.02144"
      inkscape:cy="28.616816"
-     inkscape:current-layer="g16"
+     inkscape:current-layer="g38"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -105,7 +105,7 @@
          clip-path="url(#clipPath18)"
          style="fill:#333333;fill-opacity:1">
         <rect
-           style="fill:none;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.85781096999999984;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#f39237;stroke-width:0.85781096999999984;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
            id="rect3806"
            width="46.199543"
            height="46.199543"
@@ -125,7 +125,7 @@
           <path
              inkscape:connector-curvature="0"
              d="m 0,0 -0.04,0 -0.012,0 -0.012,0 -0.04,0 c -0.769,-0.004 -1.521,-0.072 -2.25,-0.197 l 2.302,6.674 2.303,-6.674 C 1.521,-0.072 0.771,-0.004 0,0 m 4.541,13.564 c 0,0.004 -2.287,0.002 -4.593,0 -2.305,0.002 -4.593,0.004 -4.593,0 -0.114,-0.326 -9.466,-27.49 -9.466,-27.49 0,0 3.133,-0.045 3.833,0.016 2.124,0.176 3.348,0.947 4.168,2.558 0.316,0.623 1.2,4.582 6.058,4.571 4.859,0.011 5.743,-3.948 6.059,-4.571 0.819,-1.611 2.045,-2.382 4.168,-2.558 0.699,-0.061 3.833,-0.016 3.833,-0.016 0,0 -9.353,27.164 -9.467,27.49"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#f39237;fill-opacity:1;fill-rule:nonzero;stroke:none"
              id="path40"
              inkscape:export-filename="/home/adrian/projects/asyncode/asyncode.com/img/ac-icon.png"
              inkscape:export-xdpi="301.7605"
